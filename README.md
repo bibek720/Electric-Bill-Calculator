@@ -8,11 +8,6 @@ A simple web application built with Flask that allows users to calculate the cos
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Author](#author)
-- [Contact](#contact)
 
 ## Prerequisites
 
