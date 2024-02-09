@@ -17,8 +17,9 @@ A simple web application built with Flask that allows users to calculate the cos
 ## Installation
 
 1. Install Flask using the following command:
-    $ pip install flask
-   
+    ```bash
+    pip install flask
+    ```
 3. Clone or download this repository.
 
 4. Navigate to the project directory.
