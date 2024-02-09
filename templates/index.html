@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Bill Calculator</title>
+</head>
+<body>
+    <h1>Electric Bill Calculator</h1>
+    <form action="/calculate" method="post">
+        <label for="equipment">Select Equipment:</label>
+        <select name="equipment" multiple>
+            <option value="bulb">Bulb</option>
+            <option value="fan">Fan</option>
+            <!-- Add more options for other equipment -->
+        </select>
+        <br>
+        <label for="hours">Enter Hours of Usage:</label>
+        <input type="number" name="hours" required step="0.1">
+        <br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
